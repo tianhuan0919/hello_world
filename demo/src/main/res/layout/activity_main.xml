@@ -38,9 +38,19 @@
         android:id="@+id/volley_demo"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"
-        android:layout_below="@id/diy_toast"
+        android:layout_below="@id/animation_demo"
         android:layout_marginLeft="@dimen/item_margin_left"
         android:layout_marginRight="@dimen/item_margin_right"
         android:gravity="center_vertical|left"
         android:text="Volley Demo" />
+
+    <TextView
+        android:id="@+id/android_studio_template"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_below="@id/animation_demo"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_marginRight="@dimen/item_margin_right"
+        android:gravity="center_vertical|left"
+        android:text="Android Studio Template" />
 </RelativeLayout>

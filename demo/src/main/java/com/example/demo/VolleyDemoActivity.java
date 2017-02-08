@@ -9,14 +9,12 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
 
-import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 import org.json.JSONObject;
@@ -53,7 +51,7 @@ public class VolleyDemoActivity extends Activity implements View.OnClickListener
                 volleyGet(VolleyDemoActivity.this, "http://weather.51wnl.com/weatherinfo/GetMoreWeather?cityCode=101020100&weatherType=0");
                 break;
             case R.id.post_req:
-                volleyPost(VolleyDemoActivity.this, "http://weather.51wnl.com/weatherinfo/GetMoreWeather?cityCode=101020100&weatherType=0");
+                volleyPost(VolleyDemoActivity.this, "http://192.168.111.3/index.php");
                 break;
             case R.id.img_req:
                 VolleyImg(VolleyDemoActivity.this, "http://img.my.csdn.net/uploads/201308/31/1377949454_6367.jpg");
@@ -82,7 +80,7 @@ public class VolleyDemoActivity extends Activity implements View.OnClickListener
     private void volleyPost(Context ctx, String url){
         RequestQueue mQueue = Volley.newRequestQueue(ctx);
         Map<String, String> map = new HashMap<>();
-        map.put("key", "value");
+        map.put("password", "0123456789");
         JSONObject jsonParams = new JSONObject(map);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, jsonParams, new Response.Listener<JSONObject>() {

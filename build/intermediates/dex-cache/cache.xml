@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="5d68e37f0e00afef525b83d070dc0655eb014c7b">
+        sha1="e293b116b3e8a3b915ede7e98e9c375a1c9bd50f">
         <dex dex="F:\git_workspace\hello_world\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9d04797c04e0a1848f9c35b94bc4acdcb66b05c8\classes.dex" />
     </item>
     <item
@@ -48,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\git_workspace\hello_world\demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="F:\git_workspace\hello_world\demo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_b84349b59526d0ce6d609a3bb30356429a9730bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\git_workspace\hello_world\demo\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -70,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="75f6d8cf79791b8b5c2313b0e0a45e93d52c54c2">
+        sha1="183e66c3c473e0deaa0446e03a4e487ca092266e">
         <dex dex="F:\git_workspace\hello_world\demo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fe89e7142544d6c382dcf451597addcf386fd936\classes.dex" />
     </item>
     <item
