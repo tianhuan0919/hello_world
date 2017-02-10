@@ -30,10 +30,17 @@ public class AnimationDemoActivity extends Activity implements View.OnClickListe
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.ac_animation_demo);
 
+        findViews();
+        setViewListener();
+    }
+
+    private void findViews() {
         showAttributeAnimView = findViewById(R.id.attribute_anim_show);
         showAnimSetView = findViewById(R.id.show_anim_set);
         mImageView = (ImageView) findViewById(R.id.anim_img);
+    }
 
+    private void setViewListener() {
         findViewById(R.id.test_layout_anim).setOnClickListener(this);
         findViewById(R.id.attribute_anim).setOnClickListener(this);
         mImageView.setOnClickListener(this);

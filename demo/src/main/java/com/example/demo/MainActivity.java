@@ -18,6 +18,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
 
+        setViewListener();
+    }
+
+    private void setViewListener() {
         findViewById(R.id.diy_toast).setOnClickListener(this);
         findViewById(R.id.animation_demo).setOnClickListener(this);
         findViewById(R.id.volley_demo).setOnClickListener(this);
