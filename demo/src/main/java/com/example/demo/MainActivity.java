@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
+import com.example.demo.animation.activities.AnimationDemoActivity;
+import com.example.demo.diyview.DiyToast;
+import com.example.demo.volley.VolleyDemoActivity;
+
 public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
@@ -34,7 +38,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(new Intent(MainActivity.this, VolleyDemoActivity.class));
                 break;
             case R.id.android_studio_template:
-                startActivity(new Intent(MainActivity.this, Main2Activity.class));
                 break;
         }
     }

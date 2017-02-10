@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.volley;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,6 +16,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.demo.R;
 
 import org.json.JSONObject;
 

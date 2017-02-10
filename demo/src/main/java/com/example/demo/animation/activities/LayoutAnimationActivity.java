@@ -1,11 +1,12 @@
-package com.example.demo;
+package com.example.demo.animation.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.ListView;
 
-import com.example.demo.adapter.LayoutAnimationAdapter;
+import com.example.demo.R;
+import com.example.demo.animation.adapter.LayoutAnimationAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

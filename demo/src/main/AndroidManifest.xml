@@ -18,22 +18,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".VolleyDemoActivity"
+            android:name=".volley.VolleyDemoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AnimationDemoActivity"
+            android:name=".animation.activities.AnimationDemoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LayoutAnimationActivity"
+            android:name=".animation.activities.LayoutAnimationActivity"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" />
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"></activity>
     </application>
 
 </manifest>

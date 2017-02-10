@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.animation.activities;
 
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
+
+import com.example.demo.R;
 
 /**
  * Created by candy on 2017/2/5.

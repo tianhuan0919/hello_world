@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.diyview;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.demo.R;
 
 /**
  * Created by candy on 2017/1/11.

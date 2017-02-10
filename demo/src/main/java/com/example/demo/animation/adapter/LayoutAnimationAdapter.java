@@ -1,4 +1,4 @@
-package com.example.demo.adapter;
+package com.example.demo.animation.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
